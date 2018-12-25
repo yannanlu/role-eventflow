@@ -1,4 +1,8 @@
 ---
+
+eventflow_artifact: qbroker-1.2.2.jar
+eventflow_security_plugin: qbroker-security-1.0.0.jar
+eventflow_logdir: /var/log/qbroker
 eventflow_es_template:
   template_event: eventflow
 
@@ -24,12 +28,13 @@ eventflow_json_files:
   - pstr_pool.json
   - rcvr_event_log.json
   - rule_log_only.json
+
 eventflow_jar_files:
-  - activation.jar
+  - activation-1.1.jar
   - commons-io-1.4.jar
   - commons-net-3.3.jar
   - jakarta-oro-2.0.8.jar
-  - jms.jar
+  - jms-1.1.jar
   - log4j-1.2.12.jar
-  - mail.jar
-  - qbroker-1.2.1.jar
+  - mail-1.4.2.jar
+  - "{{eventflow_artifact}}"

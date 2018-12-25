@@ -1,0 +1,6 @@
+---
+- name: Restart_eventflow
+  systemd:
+    name: "{{role_name}}"
+    enabled: yes
+    state: restarted
