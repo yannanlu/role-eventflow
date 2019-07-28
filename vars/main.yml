@@ -1,10 +1,6 @@
 ---
-qbroker_service_id: EVENT
-qbroker_artifact: "{{eventflow_artifact}}"
 qbroker_security_plugin: "{{eventflow_security_plugin}}"
 qbroker_logdir: {{eventflow_logdir}}"
-qbroker_jar_files: "{{eventflow_jar_files}}"
-qbroker_json_files: "{{eventflow_json_files}}"
 
 elasticsearch_index_template: "{{eventflow_es_template}}"
 

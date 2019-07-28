@@ -1,6 +1,6 @@
 ---
-
-eventflow_artifact: qbroker-1.2.2.jar
+eventflow_service_id: EVENT
+eventflow_artifact: qbroker-1.2.4.jar
 eventflow_security_plugin: qbroker-security-1.0.0.jar
 eventflow_logdir: /var/log/qbroker
 eventflow_es_template:
